@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #1f2235;
+  color: white;
+  font-family: "Montserrat";
+  overflow-x: hidden;
+}
+
+.favicon {
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1350px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
