@@ -1,27 +1,27 @@
-.main {
+.reviews {
   padding-bottom: 50px;
 }
 
-.main__container {
+.reviews__container {
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
-.main__title {
+.reviews__title {
   font-family: "Roboto";
   font-size: 64px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.main__text {
-  margin-bottom: 20px;
+.reviews__text {
+  margin-bottom: 40px;
   font-size: 18px;
   opacity: 0.7;
 }
 
-.main__btn {
+.reviews__btn {
   font-size: 20px;
   border-radius: 5px;
   padding: 15px 30px;

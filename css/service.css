@@ -1,0 +1,37 @@
+.service {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.service__title {
+  font-family: "Roboto";
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.service__list {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.service__list-item {
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 30px 15px;
+}
+
+.service__item-title {
+  font-size: 25px;
+}
+
+.service__item-text {
+  font-size: 16px;
+}
+
+.service__item-price {
+  font-weight: 700;
+}
