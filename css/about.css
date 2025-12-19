@@ -1,9 +1,11 @@
 .about {
   padding-bottom: 50px;
+  background: #2f2e2e;
 }
 
 .about__container {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 40px;
 }

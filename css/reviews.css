@@ -4,8 +4,13 @@
 
 .reviews__container {
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 70px;
+}
+
+.reviews-content {
+  max-width: 550px;
 }
 
 .reviews__title {
@@ -21,10 +26,26 @@
   opacity: 0.7;
 }
 
+.reviews__text span {
+  font-style: italic;
+}
+
 .reviews__btn {
   font-size: 20px;
   border-radius: 5px;
   padding: 15px 30px;
-  background-color: #3a68b8;
+  background-color: #494949;
   color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+@media (any-hover: hover) {
+  .reviews__btn:hover {
+    background-color: #696969;
+  }
+}
+
+
+.reviews__img{
+  max-width: 600px;
 }

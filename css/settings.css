@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: #1f2235;
+  background: #2b2b2b;
   color: white;
   font-family: "Montserrat";
   overflow-x: hidden;
@@ -28,6 +28,7 @@ body {
 a {
   text-decoration: none;
   color: white;
+  transition: color 0.3s ease-in-out;
 }
 
 ul {

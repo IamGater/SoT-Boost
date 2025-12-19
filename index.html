@@ -9,18 +9,22 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>SoT Boost</title>
   </head>
   <body>
     <header class="header">
       <div class="container header__container">
-        <img class="logo" src="" alt="Logo" />
+        <a href="#" class="logo">Black Flag</a>
         <ul class="header__list">
           <li><a href="#home" class="header__list-link">Home</a></li>
           <li><a href="#about" class="header__list-link">About</a></li>
-          <li><a href="#service" class="header__list-link">Service</a></li>
           <li><a href="#reviews" class="header__list-link">Reviews</a></li>
+          <li><a href="#service" class="header__list-link">Service</a></li>
           <li><a href="#contactus" class="header__list-link">Contact Us</a></li>
         </ul>
       </div>
@@ -28,15 +32,19 @@
     <main class="main" id="home">
       <div class="container main__container">
         <div class="main-content">
-          <h1 class="main__title">Lorem ipsum dolor sit amet.</h1>
+          <h1 class="main__title">
+            <span>Black Flag</span> — Claim What’s Yours
+          </h1>
           <p class="main__text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-            voluptatem provident iste nobis non, ipsum impedit natus debitis
-            consequuntur et.
+            Under the Black Flag, only true pirates sail. We are a crew of
+            experienced pirates who know Sea of Thieves inside and out.
           </p>
           <button class="main__btn">Get Started</button>
         </div>
-        <img class="main__img" src="./img/main.png" alt="Main IMG" />
+        <div class="main__imgs">
+          <img class="main__athena" src="./img/athena.png" alt="Athena" />
+          <img class="main__reaper" src="./img/reaper.png" alt="Reaper" />
+        </div>
       </div>
     </main>
     <section class="about" id="about">
@@ -45,9 +53,11 @@
         <div class="about-content">
           <h1 class="about__title">About Us</h1>
           <p class="about__text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-            voluptatem provident iste nobis non, ipsum impedit natus debitis
-            consequuntur et.
+            Our mission is simple. We help players reach their dream PvP levels
+            faster and more efficiently. We understand how time-consuming and
+            frustrating the grind can be, especially for those who want to
+            compete without spending thousands of hours in-game. That’s where
+            our experience comes in.
           </p>
         </div>
       </div>
@@ -57,13 +67,16 @@
         <div class="reviews-content">
           <h1 class="reviews__title">Our Reviews</h1>
           <p class="reviews__text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-            voluptatem provident iste nobis non, ipsum impedit natus debitis
-            consequuntur et.
+            Trusted by captains who value their time. Every order is a mission.
+            Want legendary status, maxed factions, or to skip endless grinding?
+            We take the helm and get the job done — fast, secure, and discreet!
+            <br />
+            <br />
+            <span>To see our reviews, join our Discord channel.</span>
           </p>
           <a href="" class="reviews__btn">Join Discord</a>
         </div>
-        <img class="reviews__img" src="./img/main.png" alt="Main IMG" />
+        <img class="reviews__img" src="./img/reviews.png" alt="Main IMG" />
       </div>
     </section>
     <section class="service" id="service">
@@ -71,45 +84,73 @@
         <h1 class="service__title">Price Range</h1>
         <ul class="service__list">
           <li class="service__list-item">
-            <img src="" alt="Service IMG" class="service__item-img" />
+            <img
+              src="./img/hg10.png"
+              alt="Service IMG"
+              class="service__item-img"
+            />
             <h3 class="service__item-title">+10 levels</h3>
-            <p class="service__item-text">
-              +10 levels in hourglass Reaper or Athena
-            </p>
+            <p class="service__item-text">+10 PvP levels (Athena or Reaper)</p>
             <span class="service__item-price">5 euro</span>
           </li>
           <li class="service__list-item">
-            <img src="" alt="Service IMG" class="service__item-img" />
-            <h3 class="service__item-title">+10 levels</h3>
-            <p class="service__item-text">
-              +10 levels in hourglass Reaper or Athena
-            </p>
-            <span class="service__item-price">5 euro</span>
+            <img
+              src="./img/hg20.png"
+              alt="Service IMG"
+              class="service__item-img"
+            />
+            <h3 class="service__item-title">+20 levels</h3>
+            <p class="service__item-text">+20 PvP levels (Athena or Reaper)</p>
+            <span class="service__item-price">10 euro</span>
           </li>
           <li class="service__list-item">
-            <img src="" alt="Service IMG" class="service__item-img" />
-            <h3 class="service__item-title">+10 levels</h3>
-            <p class="service__item-text">
-              +10 levels in hourglass Reaper or Athena
-            </p>
-            <span class="service__item-price">5 euro</span>
+            <img
+              src="./img/hg30.png"
+              alt="Service IMG"
+              class="service__item-img"
+            />
+            <h3 class="service__item-title">+30 levels</h3>
+            <p class="service__item-text">+30 PvP levels (Athena or Reaper)</p>
+            <span class="service__item-price">15 euro</span>
           </li>
           <li class="service__list-item">
-            <img src="" alt="Service IMG" class="service__item-img" />
-            <h3 class="service__item-title">+10 levels</h3>
-            <p class="service__item-text">
-              +10 levels in hourglass Reaper or Athena
-            </p>
-            <span class="service__item-price">5 euro</span>
+            <img
+              src="./img/hg40.png"
+              alt="Service IMG"
+              class="service__item-img"
+            />
+            <h3 class="service__item-title">+40 levels</h3>
+            <p class="service__item-text">+40 PvP levels (Athena or Reaper)</p>
+            <span class="service__item-price">20 euro</span>
+          </li>
+          <li class="service__list-item">
+            <img
+              src="./img/hg50.png"
+              alt="Service IMG"
+              class="service__item-img"
+            />
+            <h3 class="service__item-title">+50 levels</h3>
+            <p class="service__item-text">+50 PvP levels (Athena or Reaper)</p>
+            <span class="service__item-price">25 euro</span>
+          </li>
+          <li class="service__list-item">
+            <img
+              src="./img/hg100.png"
+              alt="Service IMG"
+              class="service__item-img"
+            />
+            <h3 class="service__item-title">+100 levels</h3>
+            <p class="service__item-text">+100 PvP levels (Athena or Reaper)</p>
+            <span class="service__item-price">50 euro</span>
           </li>
         </ul>
       </div>
     </section>
     <footer class="footer" id="contactus">
       <div class="container footer__container">
-        <img class="logo" src="" alt="Logo" />
+        <a href="#" class="logo">Black Flag</a>
         <ul class="footer__list">
-          <li><a class="footer__list-link">Join Discord</a></li>
+          <li><a class="footer__list-btn">Join Discord</a></li>
         </ul>
       </div>
     </footer>

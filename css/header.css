@@ -5,6 +5,11 @@
   padding: 42px 50px;
 }
 
+.logo {
+  font-family: "Oswald";
+  font-size: 27px;
+}
+
 .header__list {
   display: flex;
   gap: 25px;
@@ -13,4 +18,13 @@
 .header__list-link {
   font-size: 18px;
   cursor: pointer;
+}
+
+@media (any-hover: hover) {
+  .header__list-link:hover {
+    color: #636363;
+  }
+  .logo:hover {
+    color: #636363;
+  }
 }
