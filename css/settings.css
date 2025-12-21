@@ -15,6 +15,10 @@ body {
   overflow-x: hidden;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .favicon {
   object-fit: cover;
 }
