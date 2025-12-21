@@ -7,7 +7,12 @@
 
 .footer__list {
   display: flex;
+  justify-content: center;
   gap: 25px;
+}
+
+.footer__text {
+  font-size: 21px;
 }
 
 .footer__list-btn {
@@ -15,7 +20,7 @@
   cursor: pointer;
   border-radius: 5px;
   padding: 15px 30px;
-  background-color: #494949;
+  background-color: #70b3ea;
   color: white;
   transition: background-color 0.3s ease-in-out;
 }
@@ -23,5 +28,13 @@
 @media (any-hover: hover) {
   .footer__list-btn:hover {
     background-color: #696969;
+  }
+}
+
+@media (max-width: 512px) {
+  .footer__list {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 }

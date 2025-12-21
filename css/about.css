@@ -23,3 +23,33 @@
   opacity: 0.7;
 }
 
+.about__img {
+  max-width: 625px;
+}
+
+@media (max-width: 1000px) {
+  .about__container {
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .about__container {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+}
+
+@media (max-width: 512px) {
+  .about__img {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about__img {
+    max-width: 350px;
+  }
+}

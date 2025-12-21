@@ -34,7 +34,7 @@
   font-size: 20px;
   border-radius: 5px;
   padding: 15px 30px;
-  background-color: #494949;
+  background-color: #70b3ea;
   color: white;
   transition: background-color 0.3s ease-in-out;
 }
@@ -45,7 +45,40 @@
   }
 }
 
-
-.reviews__img{
-  max-width: 600px;
+.reviews__img {
+  max-width: 550px;
 }
+
+@media (max-width: 1000px) {
+  .reviews__container {
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .reviews{
+    padding-bottom: 0;
+  }
+  .reviews__container {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+  .reviews-content{
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 512px) {
+  .reviews__img {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 400px) {
+  .reviews__img {
+    max-width: 350px;
+  }
+}
+
