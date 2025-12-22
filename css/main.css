@@ -137,8 +137,25 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
+  .main {
+    padding-top: 100px;
+    padding-bottom: 160px;
+  }
   .main__title {
     font-size: 44px;
+  }
+  .main__text{
+    font-size: 15px;
+  }
+  .main__btn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .main {
+    padding-top: 80px;
+    padding-bottom: 150px;
   }
 }
